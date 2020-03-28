@@ -23,6 +23,7 @@
     "eslint-plugin-import": "^2.20.1"
   },
   "dependencies": {
-    "parcel": "^1.12.4"
+    "parcel": "^1.12.4",
+    "style": "0.0.3"
   }
 }
