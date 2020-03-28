@@ -6,7 +6,7 @@ class View {
     this.loadingSection.innerText = 'Loading...';
 
     this.root.append(this.loadingSection);
-  };
+  }
 
   handleLoading(jobs) {
     if (jobs) {

@@ -7,7 +7,7 @@ class Controller {
 
     this.model.handleFetchStatus(this.onLoadData);
     this.model.fetchJobs();
-  };
+  }
 
   onLoadData(jobs) {
     this.view.handleLoading(jobs);
