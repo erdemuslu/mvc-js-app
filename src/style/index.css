@@ -61,3 +61,48 @@ section.is-none {
   box-shadow: none;
   background-color: cornflowerblue;
 }
+
+header {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 32px;
+  background-color: beige;
+}
+
+header .header-logo, header .header-cta {
+  width: 50%;
+}
+
+header .header-logo h1 {
+  display: inline-block;
+  font-family: serif;
+  font-size: 20px;
+  background-color: black;
+  color: #fff;
+  padding: 8px 10px;
+}
+
+.header-cta {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.header-cta button {
+  border: none;
+  background-color: none;
+}
+
+.header-cta button span {
+  margin-left: 8px;
+}
+
+header .saved-items {
+  display: none;
+  margin-top: 32px;
+}
+
+header .saved-items.is-show {
+  display: block;
+}
